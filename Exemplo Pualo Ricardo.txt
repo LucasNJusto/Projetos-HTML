@@ -1,0 +1,19 @@
+<!Doctype HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Lista - HTML</title>
+</head>
+
+<body>   <!-- "Corpo" -->
+
+<h2> Ex Paulo Ricardo </h2>
+
+<p><img src="PauloRicardo.jpg" alt="Paulo Ricardo Cantando" /></p>
+
+<p><img src="PauloRicardo.jpg" alt="Paulo Ricardo Cantando" title="Paulo Ricardo Cantando" /></p>
+
+
+
+</body>
+</html>

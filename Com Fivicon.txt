@@ -1,0 +1,25 @@
+<!Doctype HTML>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Primeira Pagina - HTML</title>
+</head>
+
+<body>   <!-- "Corpo" -->
+<div>
+<style scoped="scoped">
+h1{font-size: 24px;}
+</style>
+
+<h1><h1>
+<p>Minha primeira pagina em hTML</p>
+
+<link rel="icon"hef="/fivicon/fivicon.ico" type="image/x-icon"/>
+
+<style media="screen">
+p {font-size:12px;}
+<style>
+
+
+</body>
+</html>

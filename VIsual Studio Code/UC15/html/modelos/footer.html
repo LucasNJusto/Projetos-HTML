@@ -1,0 +1,135 @@
+<!Doctype HTML>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="modelo04.css">
+
+<title>Footer</title>
+
+<style>
+
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    margin: 0;    
+}
+
+/* Estilizar o header */
+.header
+{
+    background-color: blue;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilizando o nav bar top */
+.topnav
+{
+    overflow: hidden;
+    background-color: black;
+}
+
+/* Estilizar os linsks na top nav */
+.topnav a
+{
+    float: left;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px ;
+    text-decoration: none;
+}
+
+/* A cor do Hover */
+.topnav a:hover
+{
+    background-color: rgb(255, 0, 212);
+    color: azure;
+}
+
+/* Trabalhar com as colunas */
+.column
+{
+    float: left;
+    padding: 10px;    
+}
+.column.side
+{
+    width: 25%;
+}
+.column.middle
+{
+    width: 50%;
+}
+
+/* Limpar os pontos flutuantes(floats) depois das colunas */
+.row::after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* layout Responsivo */
+@media screen and (max-width: 600px)
+{
+    .column.side, .column.middle
+    {
+        width: 100%;
+    }
+}
+
+/* Estilizando o Footer */
+.footer
+{
+    background-color: rgb(125, 128, 128);
+    padding: 10px;
+    text-align: center;
+}
+
+</style>
+
+
+</head>
+<body>   <!-- "Corpo" -->
+
+    <div class="header">
+        <h1>Header</h1>
+        <h2>Barra BOTTOM</h2>
+    </div>
+
+    <div class="topnav">
+        <a href="sbc">SBC</a>
+        <a href="andre">André</a>
+        <a href="bernardo">Bernardo</a>
+    </div>
+
+    <div class="row">
+        <div class="column side">
+            <h2>X9</h2>
+            <p>alksfffffffffffffff ffhjdsffffff fffffffffsvln sdvlnsldnvsvursflbdjgsdi</p>
+        </div>
+        
+        <div class="column middle">
+            <h2>Texto da Outra Coluna</h2>
+            <p>alksfffffffffffff ffffhjdsffffff fffffffffsvlnsdv lnsldnvsvursflbdjgsdi</p>
+        </div>
+        
+        <div class="column side">
+            <h2>X6</h2>
+            <p>alksffffffff fffffffffhjdsfffffff ffffffffsvlnsdvlnsldnv svursflbdjgsdi</p>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <p>Footer</p>
+    </div>
+
+</body>
+</html>

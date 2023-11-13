@@ -1,0 +1,122 @@
+/* Muda o Fundo */
+body 
+{
+  font-family: sans-serif;
+  background-color: #fff;
+}
+
+/* Usado no Titulo para fazer um degrade e modificando tamnho, cor da letra entre outros */
+header 
+{
+  background-image: linear-gradient(to right, #414141, #a1a1a1, #414141);
+  color: #000000;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Muda o tamanho de todos que estiverem usando o h1 */
+h1
+{
+  font-size: 40px;
+}
+  
+
+/* movera qualquer coisa ao usar essa classe de acordo com as medidas abaixo */
+.mover
+{
+  margin: 20px auto;
+  width: 900px;
+}
+  
+/* Distancia entre as cidades na primeria pagina */
+.cidades 
+{
+  margin-bottom: 30px;
+}
+
+/* Modifica tudo que estiver usando h2 e a distancia que esta entre o nome da cidade e o texto */
+h2 
+{
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+/* Muda o rodapé (cor, tamnho e onde vai ficar) */
+footer 
+{
+  background-color: #ccc;
+  padding: 20px;
+  text-align: center;
+}
+
+
+/* Muda a distancia do li e a separação entre eles */
+li 
+{
+  margin: 0 10px;
+}
+  
+/* Muda a cor das palavras que estiverem usando a clase "a" */
+a 
+{
+  color: #000000;
+  text-decoration: none;
+}
+  
+
+/* Muda a cor quando passa o mouse em cima */
+a:hover
+{
+  color: #0004ff;
+}
+  
+
+/* é uma caixa que se usa para colocar coisas dentro de um espaço (usado na pagina principal no caso a primeira pagina)*/
+.caixa 
+{
+  border: 1px solid #0400ff;
+  background-color: #707070;
+  height: 140px;
+  margin: 10px auto;
+}
+
+/* O mesmo que o de cima so que usado em todas as paginas em diante */
+.caixa1
+{
+  border: 1px solid #000000;
+  background-color: #d4d4d4;
+  width: 1000px;
+  height: 5950px;
+  margin: 10px auto;
+}
+
+/* Muda a cor da letra */
+a.setas:visited
+{
+  color: #000000;
+}
+/* Muda a cor quando passa o mouse por cima */
+a.setas:hover
+{
+  font-size: 150% ;
+  color: #1100ff;
+}
+/* Link selecionado (barra que aparece quando clica no link) */
+a.setas:active
+{
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+/* Degrade do Titulo */
+.titulo 
+{
+  background-image: linear-gradient(to right, #414141, #a1a1a1, #414141);
+  color: rgb(0, 0, 0);
+  padding: 20px;
+}

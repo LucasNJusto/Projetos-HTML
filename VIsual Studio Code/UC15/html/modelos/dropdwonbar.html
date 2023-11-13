@@ -1,0 +1,87 @@
+<!Doctype HTML>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="abd.css">
+    <link rel="shortcut icon" href="img/abd.ico">
+
+    <title>Dropdwonbar</title>
+
+    <style>
+        .dropbtn
+        {
+            background-color: blue;
+            color: antiquewhite;
+            padding: 16px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .dropdown
+        {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content
+        {
+            display: none;
+            position: absolute;
+            right: 0;
+            background-color: blueviolet;
+            max-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a
+        {
+            color: whitesmoke;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown content a:hover
+        {
+            background-color: aquamarine;
+        }
+
+        .dropdown:hover .dropdown-content
+        {
+            display: block;
+        }
+
+        .dropdown:hover .dropbtn
+        {
+            background-color: chartreuse;
+        }
+    </style>
+</head>
+
+<body> <!-- "Corpo" -->
+
+    <h1>Dropdwon</h1>
+    <div class="dropdown" style="float: left;">
+        <button class="dropbtn">Esquerdo</button>
+        <div class="dropdown-content" style="left: 0;">
+            <a href="#">SBC 1</a>
+            <a href="#">SBC 2</a>
+            <a href="#">SBC 3</a>
+        </div>
+    </div>
+    
+    <div class="dropdown" style="float: right;">
+        <button class="dropbtn">Direito</button>
+        <div class="dropdown-content">
+            <a href="#">STA 1</a>
+            <a href="#">STA 2</a>
+            <a href="#">STA 3</a>
+        </div>
+    </div>
+    
+</body>
+</html>

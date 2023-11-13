@@ -1,0 +1,27 @@
+<!Doctype HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Receitas - HTML</title>
+</head>
+
+ 
+
+<body>   <!-- "Corpo" -->
+
+<h1> Trabalhando com links <h1>
+
+<p>
+<a href="https://www.sp.senac.br/" alt="Senac: São Paulo" target="_blank">Senac: São Paulo</a>
+</p>
+
+<p><a href="mailto:mande sua mensagem(dykawasaki@gmail.com)">Texto</a></p>
+
+<h1> Trabalhando com links em imagens <h1>
+
+ 
+<a href="www.google.com"><img src="imagen/css3.png" class="media-object  img-responsive img-thumbnail"></a>
+ 
+
+</body>
+</html>

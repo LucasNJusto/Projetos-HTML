@@ -1,0 +1,116 @@
+<!Doctype HTML>
+<html lang="pt-br" xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Template CSS</title>
+
+<style>
+
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Estilizando o cabeçalho */
+header
+{
+    background-color: blue;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+/* Criando colunas/caixas que flutuam uma do lado da outra */
+nav
+{
+    float: left; /* Faz com que a caixa fique ao lado esquerdo */
+    width: 30%;  /* Vai usar 30% da tela */
+    height: 100px;
+    background-color: #ccc;
+    padding: 20px; /* Preenchimento */
+}
+/* Estilizadno a lista dentro do menu */
+nav ul
+{
+    list-style-type: none;   /* Remove os pontos de marcação dos itens da lista*/
+    padding: 0;
+}
+
+article
+{
+    float: left;
+    padding: 20px ;
+    width: 70%;
+    background-color: #f1f1f1;
+    height: 200px; 
+}
+
+/* Limpar os floats depois das colunas */
+section::after
+{
+    content:"";
+    display: table;
+    clear: both;
+}
+
+/* Estilizando o Footer */
+footer 
+{
+    background-color:#777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+/* Layout Responsivo - Fara o auto ajuste, as colnas/caixas empilhadas umas sobre as outras, no lugar de ficar lado a lado, em telas pequenas*/
+@media (max-width:600px)
+{
+    nav, article
+    {
+        width: 100%;
+        height: auto;
+    }
+}
+
+</style>
+
+</head>
+<body>   <!-- "Corpo" -->
+<h2>CSS Layout Float/Flutuante</h2>
+<p>Neste exemplo, vamos criar:
+    Cabeçaçho, duas colunas/caixas e um rodapé. Telas menores, colunas empilhadas  umas sobre as outras.
+</p>
+
+<p>Redimencione a janela do navegador para ver o efeito responsivo</p>
+<header>
+    <h2>Cidades</h2>
+</header>
+<section>
+    <nav>
+        <ul>
+            <li> <a href="#">SBC</a> </li> <!-- é tipo uma ancoragem para uma pagina -->
+            <li> <a href="#">Santo André</a> </li>
+            <li> <a href="#">São Caetano</a> </li>
+            <li></li>
+        </ul>
+    </nav>
+
+<article>
+    <h1>SBC</h1>
+    <p>Tem gente pra porra</p>
+    <p>Caminho para ir para a praia eh diversão garantida cidade natal de não sei quem, que é banhada por um ria aí.</p>
+</article>
+</section>
+
+<footer>
+    <p>Footer</p>
+</footer>
+
+</body>
+</html>

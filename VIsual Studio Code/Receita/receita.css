@@ -1,0 +1,49 @@
+/* Mudara o degrade da cor que esta no titulo (da faixa) */
+.titulo 
+{
+    background-image: linear-gradient(to right, #ff7300, #bb7900);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+}
+
+/* Muda toda a cor do fundo */
+body {
+    font-family: Arial, sans-serif;
+    color: #696767;
+    margin: 0;
+    padding: 0;
+    background-color: #eec19d;
+}
+
+/* Essa é a divisão dos produtos para ficarem divididos em duas colunas */
+ul 
+{
+      column-count: 2;
+      /* Vai dividir a lista em duas colunas */
+      column-gap: 20px;
+      /* Espaço entre as colunas */
+      list-style: none;
+      /* Remove os marcadores de lista padrão */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+ul 
+{
+    justify-content: center;
+}
+*/

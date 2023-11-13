@@ -1,0 +1,64 @@
+<!Doctype HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Lista - HTML</title>
+</head>
+
+<body>   <!-- "Corpo" -->
+
+<p>Minha primeira pagina em hTML</p>
+
+<style media="screen">
+p {font-size:12px;}
+<style>
+
+<ol>
+<li> 1. Naruto </li>
+<li> 2. Sword art Online </li>
+<li> 3. Demons Slayer </li>
+<li> 4. Golden Time </li>
+<li> 5. Harry Potter </li>
+<li> 6. Kuroko no Basket </li>
+<li> 7. Haikyuu </li>
+<li> 8. Como Treinar Seu Dragão </li>
+<li> 9. Carros disney </li>
+<li> 10. Avioes do mundo acima do carros </li>
+<li> 11. Tokyo Revengers </li>
+<li> 12. Darling in the fraxx </li>
+<li> 13. Chainsaws Man </li>
+<li> 14. Shokugeki No Soma </li>
+<li> 15. A voz do silencio </li>
+<li> 16. The seven daedly sins </li>
+<li> 17. Orange </li>
+<li> 18. Jujutsu Kaisen </li>
+<li> 19. Otonari ni Ginga </li>
+<li> 20. Looklsm </li>
+</ol>
+
+
+<ul>
+<li> 1. Arroz </li>
+<li> 2. Feijão </li>
+<li> 3. Óleo </li>
+<li> 4. Sal </li>
+<li> 5. Açúcar </li>
+<li> 6. Café </li>
+<li> 7. Molho de tomate </li>
+<li> 8. Macarrão espaguete ou parafuso </li>
+<li> 9. Sardinha/atum </li>
+<li> 10. Salsicha/charque </li>
+<li> 11. Milho/ervilha ou seleta de legumes </li>
+<li> 12. Farinha de trigo/mandioca </li>
+<li> 13. Biscoito doce ou salgado </li>
+<li> 14. Pão de forma </li>
+<li> 15. Manteiga </li>
+<li> 16. Banana </li>
+<li> 17. Leite em pó </li>
+<li> 18. Temperos </li>
+<li> 19. Uma dúzia de ovos </li>
+<li> 20. Extrato/molho de tomate </li>
+</ul>
+
+</body>
+</html>

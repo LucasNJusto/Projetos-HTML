@@ -1,0 +1,126 @@
+<!Doctype HTML>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="abd.css">
+    <link rel="shortcut icon" href="img/abd.ico">
+
+    <title>Buscador</title>
+
+    <style>
+        input[type=text] 
+        {
+            width: 30%;
+            box-sizing: border-box;
+            border: 3px solid blue;
+            border-radius: 4px;
+            font-size: 16px;
+            background-color: aquamarine;
+            background-image: url('naruto.png');
+            background-position: 10px 10px;
+            background-repeat: no-repeat;
+            padding: 12px 20px 12px 40px;
+        }
+
+        input[type=number] 
+        {
+            width: 130px;
+            box-sizing: border-box;
+            border: 2px solid blue;
+            border-radius: 4px;
+            font-size: 16px;
+            background-color: aquamarine;
+            background-image: url('naruto.png');
+            background-position: 10px 10px;
+            background-repeat: no-repeat;
+            padding: 12px 20px 12px 40px;
+            transition: width 0.4s ease-in-out;
+        }
+
+        input[type=number]:focus
+        {
+            width: 30%;
+            border: 3px solid purple;
+            /* width: 25%;
+            padding: 12px 20px;
+            margin: 10px 8px;
+            box-sizing: border-box;
+            border: none;
+            border-bottom: 2px solid blue;  */
+        }
+
+        textarea
+        {
+            width: 30%;
+            height: 100px;
+            padding: 12px 20px;
+            box-sizing: border-box;
+            border: 3px solid palevioletred;
+            border-radius: 4px;
+            background-color: yellow;
+            font-size: 12px;
+            resize: none;
+        }
+
+        select
+        {
+            width: 30%;
+            padding: 16px 20px;
+            border: none;
+            border-radius: 4px;
+            background-color: chartreuse;
+        }
+
+        input[type=button], input[type=reset], input[type=submit]
+        {
+            background-color: rgb(255, 0, 200);
+            border: none;
+            color: aquamarine;
+            padding: 16px 32px;
+            text-decoration: none;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body> <!-- "Corpo" -->
+    <h1>Buscador</h1>
+    <h2>Clique em um Campo</h2>
+
+    <form action="">
+        <input type="text" name="fname" placeholder="Search..">
+    </form>
+    
+    <form action="">
+        <input type="number" name="fname" placeholder="Search..">
+    </form>
+    
+    <h2>Textarea</h2>
+    <form action="">
+        <textarea name="" id="" cols="30" rows="10"> Área de Texto </textarea>
+    </form>
+
+    <h2>Menu select</h2>
+    <form>
+        <select name="cidade" id="cidade">
+            <option value="sta"> São Barnardo</option>
+            <option value="sta"> Santo André</option>
+            <option value="sta"> São Caetano</option>
+            <option value="sta"> Mauá</option>
+        </select>
+    </form>
+
+    <h2>Botões</h2>
+    <input type="button" value="Button">
+    <input type="reset" value="Reset">
+    <input type="submit" value="Submit">
+
+    
+
+</body>
+
+</html>

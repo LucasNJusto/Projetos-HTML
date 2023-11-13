@@ -1,0 +1,85 @@
+<!Doctype HTML>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="abd.css">
+    <link rel="shortcut icon" href="img/abd.ico">
+
+    <title>Formuláros | HTML | CSS</title>
+
+    <style>
+        input[type=text] 
+        {
+            width: 30%;
+            padding: 12px 20px;
+            margin: 8px 4px;
+            box-sizing: border-box;
+            border: 3px solid blue;
+            outline: none;
+            -webkit-transition: 1.5s;
+            transition: 1.5s;
+        }
+        
+        input[type=text]:focus
+        {
+            background-color: aqua;
+        }
+
+        input[type=number] 
+        {
+            width: 50%;
+            padding: 12px 20px;
+            margin: 8px;
+            box-sizing: border-box;
+            border: 2px solid blue;
+            -webkit-transition: 0.5s;
+            transition: 0.5s;
+            outline: none;
+        }
+
+        input[type=number]:focus
+        {
+            border: 3px solid purple;
+            /* width: 25%;
+            padding: 12px 20px;
+            margin: 10px 8px;
+            box-sizing: border-box;
+            border: none;
+            border-bottom: 2px solid blue;  */
+        }
+    </style>
+</head>
+
+<body> <!-- "Corpo" -->
+    <h1>Com focus colorido</h1>
+    <h2>Clique em um Campo</h2>
+
+    <form action="">
+        <label for="fname">Nome:</label>
+        <input type="text" id="fname" name="fname" value="Lucas">
+        <label for="lname"> Sobrenome:</label>
+        <input type="text" id="lname" name="lanme" value="Noves Justo">
+    </form>
+
+    <form action="">
+        <label for="tel">Telefone</label>
+        <input type="number" id="nnum" name="nnum" value="999">
+    </form>
+    
+    <form action="">
+        <label for="nnum">Number</label>
+        <input type="number" id="nnum" name="nnum">
+    </form>
+    
+    <form action="">
+        <label for="nnum">Number</label>
+        <input type="number" id="nnum" name="nnum">
+    </form>
+    
+
+</body>
+
+</html>

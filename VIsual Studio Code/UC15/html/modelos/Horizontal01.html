@@ -1,0 +1,62 @@
+<!Doctype HTML>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="modelo04.css">
+
+<title>Base Horzontal</title>
+
+<style>
+
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#000000;
+}
+
+li
+{
+    float: left;
+}
+
+li a
+{
+    display: block;
+    color: azure;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active)
+{
+    background-color: rgb(13, 0, 126);
+    color: azure;
+}
+
+a.active
+{
+    background-color: #4CAF50;
+    color: white;
+}
+
+</style>
+
+
+</head>
+<body>   <!-- "Corpo" -->
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#home">Santo André</a></li>
+        <li><a href="#home">São Bernardo</a></li>
+        <li><a href="#home">São Caetano</a></li>
+        <li style="float: right;"><a class="active" href="#home">Sobre</a></li>
+    </ul>
+
+</body>
+</html>

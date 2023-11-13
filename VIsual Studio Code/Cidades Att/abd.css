@@ -1,0 +1,225 @@
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    margin: 0;
+    background-color: #d6c693;
+}
+
+/* Estilizar o header */
+header
+{
+    background-color: #BB8588;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilizando o nav bar top */
+nav
+{
+    overflow: hidden;
+    background-color: #a3a380;
+}
+
+/* Estilizar os linsks na top nav */
+nav a
+{
+    float: left;
+    display: block;
+    color: #EFEBCE;
+    text-align: center;
+    padding: 14px 16px ;
+    text-decoration: none;
+}
+
+/* A cor do Hover */
+nav a:hover
+{
+    background-color: #EFEBCE;
+    color: #bb8588;
+}
+
+.cortexto
+{
+    color: #EFEBCE;
+}
+
+p
+{
+    color: #d8a48f;
+}
+
+li 
+{
+  margin: 0 10px;
+  color: #bb8588;
+}
+
+.cortitulo
+{
+    color: #bb8588;
+}
+
+
+
+/* Edita a coluna do meio */
+.column
+{
+    float: left;
+    padding: 10px;    
+}
+.column.side
+{
+    width: 74%;
+}
+.column.middle
+{
+    width: 50%;
+}
+
+/* Limpar os pontos flutuantes(floats) depois das colunas */
+section::after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* layout Responsivo */
+@media screen and (max-width: 600px)
+{
+    .column.side, .column.middle
+    {
+        width: 100%;
+    }
+}
+
+/* Estilizando o Footer */
+footer
+{
+    background-color: #EFEBCE;
+    padding: 30px;
+    text-align: center;
+}
+
+
+a.active
+{
+    background-color: #d6c693;
+    color: white;
+}
+
+
+/* Para colocar na Vertical */
+aside
+{
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    height: 3410px;
+    background-color: #d8a48f;
+}
+
+.verticalD
+{
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    height: 3410px;
+    background-color: #d8a48f;
+}
+/* Fim da Vertical */
+
+
+/* Adicionando cartóes para inclusão de artigos */
+article
+{
+    background-color: #EFEBCE;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Coluna da esquerda */
+.leftcolumn
+{
+    float: left;
+    width: 75%;
+}
+
+/* Responsavidade */
+@media screen and (max-width: 800px)
+{
+    .leftcolumn
+    {
+        width: 100%;
+        padding: 0;
+    }
+
+}
+
+/* Fake Image */
+.fakeimg
+{
+    background-color: #d8a48f;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+}
+
+
+input[type=text],select
+{
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #d6c693;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #bb8588;
+}
+
+input[type=text]:focus
+{
+    background-color: #d6c693;
+}
+
+input[type=submit]
+{
+    width: 30%;
+    background-color: #d8a48f;
+    color: #EFEBCE;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover
+{
+    background-color: #bb8588;
+}
+
+
+textarea
+{
+    width: 72%;
+    height: 100px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 3px solid #bb8588;
+    border-radius: 4px;
+    background-color: #d8a48f;
+    font-size: 12px;
+    resize: none;
+    color: #EFEBCE;
+}
+

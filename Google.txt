@@ -1,0 +1,15 @@
+<!Doctype HTML>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>HTML5 - Estrutura Basica</title>
+</head>
+
+<body>   <!-- "Corpo" -->
+
+<p>
+<a href="http://ww.google.com.br" alt="Google" target="_blank">Google</a>
+</p>
+
+</body>
+</html>

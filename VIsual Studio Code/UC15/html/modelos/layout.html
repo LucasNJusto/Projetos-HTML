@@ -1,0 +1,182 @@
+<!Doctype HTML>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="modelo04.css">
+
+<title>Layout</title>
+
+<style>
+
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    background-color: azure;
+}
+
+/* Estilizadno o Header/Blog Title */
+.header
+{
+    background-color: blue;
+    padding: 30px;
+    text-align: center;
+}
+
+.header h1
+{
+    font-size: 50px;
+}
+
+/* Estilizando a top nav bar */
+.topnav
+{
+    overflow: hidden;
+    background-color: black;
+}
+
+/* Estilizando os links da topnav */
+.topnav a
+{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Colorindo o hover */
+.topnav a:hover
+{
+    background-color:rgb(155, 1, 134);
+    color: azure;
+}
+
+/* Criamos duas colunas uma do lado da outra */
+/* Coluna da esquerda */
+.leftcolumn
+{
+    float: left;
+    width: 75%;
+}
+/* Coluna da direita */
+.rightcolumn
+{
+    float: left;
+    width: 25%;
+    background-color: brown;
+    padding: 20px;
+}
+
+/* Fake Image */
+.fakeimg
+{
+    background-color: cadetblue;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Adicionando cartóes para inclusão de artigos */
+.card
+{
+    background-color: antiquewhite;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Limpando os floats depois das colunas */
+.row::after
+{
+    content:"";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+.footer
+{
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(85, 87, 87);
+    margin-top: 20px;
+}
+
+/* Responsavidade */
+@media screen and (max-width: 800px)
+{
+    .leftcolumn, .rightcolumn
+    {
+        width: 100%;
+        padding: 0;
+    }
+
+}
+@media screen and (max-width: 400px)
+{
+    .topnav a
+    {
+        float: none;
+        width: 100%;
+    }
+}
+</style>
+
+
+</head>
+<body>   <!-- "Corpo" -->
+
+    <div class="header">
+        <h1>Site Qualquer</h1>
+        <p>Redimencione a tela para testar os efeitos</p>
+    </div>
+    <div class="topnav">
+        <a href="#">Link1</a>
+        <a href="#">Link2</a>
+        <a href="#">Link3</a>
+        <a href="#" style="float: right;">Link4</a>
+    </div>
+
+    <div class="row">
+        <div class="leftcolumn">
+            <div class="card">
+                <h2>Título HEADING</h2>
+                <h5>Descrição do Título, 26 de setembro de 2023</h5>
+                <div class="fakeimg" style="height: 200px;">
+                    IMAGE
+                </div>
+                <p>Algum texto ...</p>
+                <p>Ligação recebida com sucesso, mas não vou atender ...</p>
+            </div>
+            <div class="card">
+                <h2>Título HEADING</h2>
+                <h5>Desctição do Título, 27 de setembro de 2023</h5>
+                <div class="fakeimg" style="height: 100px;">
+                    IMAGE
+                </div>
+                <p>Algum texto sobre algum assunto que eu nem ligo ...</p>
+            </div>
+            <div class="card">
+                <h3>Alguns Posts</h3>
+                <div class="fakeimg"><p>IMAGE</p></div>
+                <div class="fakeimg"><p>IMAGE</p></div>
+                <div class="fakeimg"><p>IMAGE</p></div>
+            </div>
+            <div class="card">
+                <h3>Me siga</h3>
+                <p>Algum texto...</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <h2>Footer</h2>
+    </div>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!Doctype HTML>
+<html>
+<head>
+	<!-- Comentarios
+		HEAD: Parte destinada ao cabeçalho - Orientações;
+		BPDY: Corpo da página: Todo conteudo da sua pagina;
+		-->
+	<meta charset="UTF-8" />
+	<!-- Qualquer navegador conssiga interpretar o que eu coloquei de conteudo
+		--> 
+	<title>    "Serve para colocar um titulo"
+		teste
+	</title>
+	<!-- Entender o titulo da sua pagina -->
+</head>
+
+<body>   <!-- "Corpo" -->
+	<!-- Tags de Heading h1 a h6 -->
+	<h1>Titulo Principal do Conteudo</h1>
+	<h2>Titulo Secundario do Conteudo</h2>
+	<h3>Titulo Terciario do Conteudo</h3>
+	<h4>Titulo Quartenario do Conteudo</h4>
+	<h5>Titulo Quintenario do Conteudo</h5>
+	<h6>Titulo de menor destaque ou menos importancia do Conteudo</h6>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!Doctype HTML>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="abd.css">
+    <link rel="shortcut icon" href="img/abd.ico">
+
+    <title>Formulário | HTML | CSS</title>
+
+    <style>
+        form
+        {
+            font-family: Arial, Helvetica, sans-serif;
+            color: cadetblue;
+            background-color: chartreuse;
+            border: 2px solid salmon;
+            padding: 20px;
+            margin: 50px auto;
+            width: 500px;
+            box-shadow: 5px 5px 10px blue;
+        }
+
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        input[type=text], input[type=email] 
+        {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid black;
+        }
+
+        select
+        {
+            width: 100%;
+            padding: 8px;
+        }
+
+        input[type=submit]
+        {
+            display: block;
+            margin-top: 20px;
+            padding: 10px;
+            background-color: aqua;
+            color: black; 
+        }
+    </style>
+</head>
+
+<body> <!-- "Corpo" -->
+
+    <form action="nome">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required> <br>
+        
+        <label for="Email">Email:</label>
+        <input type="email" id="email" name="email" required> <br>
+        
+        <label for="Assunto">Assunto:</label>
+        <select type="assunto" id="assunto">
+            <option value="sugestão">Sugestão</option>
+            <option value="reclamação">Reclamação</option>
+            <option value="dúvida">Dúvida</option>
+            <option value="outro">Outro</option>
+        </select><br>
+        <label for="mensagem">Mensagem:</label>
+        <textarea name="mensagem" id="mensagem" cols="50" rows="4"></textarea>
+        <input type="submit" value="Enviar">
+    </form>
+    
+
+</body>
+</html>
